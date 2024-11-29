@@ -192,7 +192,9 @@ button{
 button:hover .fa-chevron-right {
   display: inline !important;
 }
-
+.a-button{
+  color: #fff;
+}
 /* ........................................ */
 /* Social media links */
 /* ........................................ */
