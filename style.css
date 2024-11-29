@@ -116,7 +116,7 @@ header{
   background-image: url(images/white&blue&pink.jpg);
   height: 300px;
   background-size: cover;
-}
+  }
 .card{
   width: 100%;
   height: 300px;
@@ -270,6 +270,7 @@ footer  p, footer a, footer i, footer span{
 
   /* .......................................................... */
 /* ABOUT PAGE */
+  .header {width: 100%;}
   .flexcontainer-0 {flex-direction: column; width: 100%;}
   .flexcontainer-0 > div{width: 100%; padding-right: 100px;}
   .flexcontainer-0 h1{font-size: 40px; text-align: center;}
@@ -280,6 +281,7 @@ footer  p, footer a, footer i, footer span{
   /* .......................................................... */
 
   /* SKILL PAGE */
+  .header {width: 100%;}
   .flexcontainer-3 {flex-direction: column; width: 100%;}
   .flexcontainer-3 >div {width: 100%; padding-right: 300px;}
   .flexcontainer-3 p {font-size: 14px;}
@@ -287,10 +289,13 @@ footer  p, footer a, footer i, footer span{
 
 
   /* PROJECT PAGE */
-  .flexcontainer-4 {flex-direction: column; width: 100%;}
-  .flexcontainer-4 > div{width: 100%; padding-right: 800px;}
-  header h3 {font-size: 14px;}
-  .card {width: 10%;}
+  .header {width: 100%;}
+  .flexcontainer-4 {flex-direction: column; width: 100%; align-items: flex-start; padding: 50px 60px;}
+  .flexcontainer-4 > div {width: 100%; margin: 20px 10px;}
+  .flexcontainer-4 > .card{width: 50%;}
+  .card > p {font-size: 12px;}
+  .header h3 {font-size: 14px;}
+
 
 
 
